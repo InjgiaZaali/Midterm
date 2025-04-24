@@ -33,6 +33,12 @@ public class Customer {
     public void setEmail(String email) {
         this.email = email;
     }
+    
+    /**
+     * NEW FEATURE: Customer Savings Tracking
+     * This feature tracks the total amount each customer has saved through product discounts.
+     * It automatically calculates savings for each purchase and maintains a running total.
+     */
     public void addPurchasedProduct(Product product) {
         purchasedProducts.add(product);
         double savings = product.getPrice() - product.getFinalPrice();
