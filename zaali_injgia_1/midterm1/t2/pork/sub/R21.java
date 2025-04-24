@@ -12,7 +12,7 @@ public class R21 {
 
         int area = width * height;
 
-        System.out.printf("The area of rectangle is: %d", area);
+        System.out.printf("The area of rectangle is: %d\n", area);
 
         A22 date = new A22();
         int monthNumber = date.getMonth();
